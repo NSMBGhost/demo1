@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+function login(){
+var name=$("#name").val();
+var password=$("#password").val();
+$ajax({
+url:"loginIn",
+method:"post",
+data:{
+name:name,
+password:password
+},
+dataType:"json",
+success:function (data){
+if(data.status=="success"){
+
+}
+})
+})
+<body>
+
+</body>
+</html>

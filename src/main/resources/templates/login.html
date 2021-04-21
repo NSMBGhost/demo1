@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js">
+
+    }
+</script>
+<body>
+<form role="form" action = "/loginIn" method="post">
+    账号：<input type="text" id="name" name = "name" > <br>
+    密码：<input type="password" id = "password" name = "password"> <br>
+    <input type="submit" id = "login" value = "login"> <!--id = "login" value = "login" function login(){
+        var name=$("#name").val();
+        var password=$("#password").val();
+        $ajax({
+            url:"loginIn",
+            method:"post",
+            data:{
+                name:name,
+                password:password
+            },
+            dataType:"json",
+            success:function (data){
+                if(data.status=="success"){
+
+                }
+            })
+        })-->
+    <br>
+    can you find the password?
+    <!-- password is niu-->
+</form>
+
+</body>
+</html>
+
